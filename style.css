@@ -1,0 +1,72 @@
+body{
+    
+    font-family: 'Armata','Exo 2', sans-serif;
+    color: #002855;
+    background-color: #E8E9ED;
+    
+    
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:active{
+        color: inherit;
+    }
+
+    a:visited{
+        
+        color: inherit;
+    }
+    .header {
+        position: fixed;
+        background-color: #002855;
+        color: #cccccc;
+        padding-top: 13%;
+        padding-left: 28%;
+        padding-right: 70%;
+        padding-bottom: 14%;
+        border-radius: 15px 0px 15px 0px;   
+
+    }
+
+    .port{
+
+        position: fixed;
+        z-index: 3;
+        top: 5%;
+        left: 21%;
+        font-size: 16px;
+        
+
+    }
+
+    .name{
+
+        position: fixed;
+        z-index: 3;
+        top: 15%;
+        left: 21%;
+        line-height: 55%;
+        font-size: 25px;
+        font-weight: 800;
+
+    }
+
+    .headpicture {
+        position: fixed;
+        width: 18%;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 20% 0%;
+        z-index: 2;
+        
+        border-style: solid;
+        border-color: lightgoldenrodyellow;
+        
+    }
+
