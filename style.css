@@ -3,70 +3,93 @@ body{
     font-family: 'Armata','Exo 2', sans-serif;
     color: #002855;
     background-color: #E8E9ED;
-    
+    margin: 0px;
+    padding: 0px;
     
     }
     
-    a:link {
+    a {
         text-decoration: none;
         color: inherit;
     }
 
-    a:active{
-        color: inherit;
-    }
-
-    a:visited{
-        
-        color: inherit;
-    }
+    
     .header {
-        position: fixed;
+
         background-color: #002855;
         color: #cccccc;
-        padding-top: 13%;
-        padding-left: 28%;
-        padding-right: 70%;
-        padding-bottom: 14%;
-        border-radius: 15px 0px 15px 0px;   
+        border-radius: 15px 0px 15px 0px; 
+        height: 75px;
+        margin-left: 5px;  
+        vertical-align: top;
+    }
+    .header div{
 
+        display: inline-block;
+      
     }
 
-    .port{
+    .header div:first-child img {
+    
+        width: 50px;
+        margin-top: 3px;
+        margin-left: 3px;
+        border-radius: 15px 0px;
+    
+    } 
 
-        position: fixed;
-        z-index: 3;
-        top: 5%;
-        left: 21%;
-        font-size: 16px;
-        
-
+    .header div:last-child{
+     
+        vertical-align:top;
+        margin-top: 0px;
     }
 
-    .name{
+    .header div h2 {
 
-        position: fixed;
-        z-index: 3;
-        top: 15%;
-        left: 21%;
-        line-height: 55%;
-        font-size: 25px;
+        vertical-align:top ;
+        font-size: 15px;
+        font-weight: 300;
+      
+    }
+
+    .header div h1 {
+
+        vertical-align: top;
+        font-size: 90%;
         font-weight: 800;
+    }
+
+    .abstract {
+
+        width: 100%;
+        margin-left: 1px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+    }
+
+    .abstract p:first-child{
+
+        background-color: #002855;
+        color: #cccccc;
+        border-radius: 5px 0px;
+        margin-top: 15px;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 14px;
+        font-weight: 800;
+        text-align: left;
 
     }
 
-    .headpicture {
-        position: fixed;
-        width: 18%;
-        top: 15px;
-        left: 15px;
-        right: 15px;
-        bottom: 15px;
-        border-radius: 20% 0%;
-        z-index: 2;
-        
-        border-style: solid;
-        border-color: lightgoldenrodyellow;
-        
-    }
+    .abstract p:last-child{
 
+        font-size: 10px;
+        text-align: justify;
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-right: 1px;
+        margin-top: 0px;
+    }
