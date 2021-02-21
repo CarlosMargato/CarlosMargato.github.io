@@ -15,13 +15,16 @@ body{
 
     
     .header {
-
+        
+        position: fixed;
         background-color: #002855;
         color: #cccccc;
-        border-radius: 15px 0px 15px 0px; 
-        height: 75px;
+        border-radius: 30px 0px 30px 0px; 
+        height: 25%;
+        width: 95%;
         margin-left: 5px;  
         vertical-align: top;
+        box-shadow:15px 15px 35px #002855;
     }
     .header div{
 
@@ -30,11 +33,13 @@ body{
     }
 
     .header div:first-child img {
-    
-        width: 50px;
-        margin-top: 3px;
-        margin-left: 3px;
-        border-radius: 15px 0px;
+        
+        
+        max-height: 210px;
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 20px 0px;
+        border:solid #cccccc 3px;
     
     } 
 
@@ -46,50 +51,82 @@ body{
 
     .header div h2 {
 
-        vertical-align:top ;
-        font-size: 15px;
+        
+        vertical-align:middle ;
+        width: 90%;
+        font-size: 250%;
         font-weight: 300;
+        /* padding-top: 5px;
+        padding-left: 10px; */
+
       
     }
 
     .header div h1 {
 
-        vertical-align: top;
-        font-size: 90%;
+        
+        vertical-align: bottom;
+        font-size: 350%;
         font-weight: 800;
+        /* padding-top: 30px;
+        padding-left: 10px; */
     }
 
-    .abstract {
+    .text{
+        padding-top: 250px;
+    }
 
-        width: 100%;
+    .boxes {
+
+
+        width: 55%;
         margin-left: 1px;
         margin-right: 5px;
-        padding-left: 5px;
+        padding-left: 15px;
         padding-right: 5px;
-        padding-top: 0px;
+        padding-top: 85px;
     }
 
-    .abstract p:first-child{
+    .boxes div {
+
+        border-radius: 20px 20px 20px 20px;
+        box-shadow:15px 15px 35px #002855;
+    }
+
+    .boxes p:first-child{
 
         background-color: #002855;
         color: #cccccc;
-        border-radius: 5px 0px;
-        margin-top: 15px;
-        padding-left: 5px;
+        border-radius:20px 20px 00px 0px;
+        margin-top: 0px;
+        padding-left: 15px;
         padding-top: 2px;
-        padding-bottom: 2px;
-        font-size: 14px;
+        font-size: 24px;
         font-weight: 800;
         text-align: left;
+        
 
     }
 
-    .abstract p:last-child{
+    .boxes p:last-child{
 
-        font-size: 10px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 2;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .boxes ul li{
+
+        font-size: 20px;
         text-align: justify;
         margin-left: 1px;
         margin-top: 1px;
         margin-right: 1px;
         margin-top: 0px;
+       line-height: 2;
     }
