@@ -1,132 +1,125 @@
-body{
-    
-    font-family: 'Armata','Exo 2', sans-serif;
+body {
+    /* CORES HEX
+--oxford-blue: #002855ff;
+--manatee: #9ea3b0ff;
+--misty-rose: #fae1dfff;
+--ebony: #575a4bff;
+--ruby-red: #9b1d20ff; 
+backgroundoriginal#E8E9ED
+    textcolororiginal: #cccccc
+*/
+    font-family: 'Armata', 'Exo 2', sans-serif;
     color: #002855;
-    background-color: #E8E9ED;
+    background-color: #fae1df;
     margin: 0px;
     padding: 0px;
-    
-    }
-    
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
+}
 
-    
-    .header {
-        
-        position: fixed;
-        background-color: #002855;
-        color: #cccccc;
-        border-radius: 30px 0px 30px 0px; 
-        height: 25%;
-        width: 95%;
-        margin-left: 5px;  
-        vertical-align: top;
-        box-shadow:15px 15px 35px #002855;
-    }
-    .header div{
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-        display: inline-block;
-      
-    }
+header {
+    /* position: fixed; */
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    background-color: #002855;
+    color: #fae1df;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 15px 15px 35px #002855;
+}
 
-    .header div:first-child img {
-        
-        
-        max-height: 210px;
-        margin-top: 15px;
-        margin-left: 15px;
-        border-radius: 20px 0px;
-        border:solid #cccccc 3px;
-    
-    } 
+header div,
+header section {
+    display: inline-block;
+    vertical-align: top;
+}
 
-    .header div:last-child{
-     
-        vertical-align:top;
-        margin-top: 0px;
-    }
+img {
+    width: 100%;
+    border-radius: 20px 0px;
+}
 
-    .header div h2 {
+header div {
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px 0px;
+    border: solid #fae1df 3px;
+}
 
-        
-        vertical-align:middle ;
-        width: 90%;
-        font-size: 250%;
-        font-weight: 300;
-        /* padding-top: 5px;
-        padding-left: 10px; */
+header section h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
 
-      
-    }
+header section h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
 
-    .header div h1 {
+#menu ul {
+    list-style: none;
+    width: 100%;
+}
 
-        
-        vertical-align: bottom;
-        font-size: 350%;
-        font-weight: 800;
-        /* padding-top: 30px;
-        padding-left: 10px; */
-    }
+#menu li {
+    display: inline-block;
+    margin-left: 1%;
+}
 
-    .text{
-        padding-top: 250px;
-    }
+main {
+    text-align: center;
+}
 
-    .boxes {
+.boxes {
+    width: 50%;
+    margin-left: 1px;
+    margin-right: 5px;
+    display: inline-block;
+}
 
+.boxes div {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 15px 15px 35px #9ea3b0;
+}
 
-        width: 55%;
-        margin-left: 1px;
-        margin-right: 5px;
-        padding-left: 15px;
-        padding-right: 5px;
-        padding-top: 85px;
-    }
+.boxes p:nth-of-type(1) {
+    background-color: #002855;
+    color: #cccccc;
+    border-radius: 20px 20px 00px 0px;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
 
-    .boxes div {
+.boxes p:nth-of-type(2) {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
-        border-radius: 20px 20px 20px 20px;
-        box-shadow:15px 15px 35px #002855;
-    }
+.boxes p:nth-of-type(4) {
+    text-align: right;
+    margin-right: 20px;
+}
 
-    .boxes p:first-child{
-
-        background-color: #002855;
-        color: #cccccc;
-        border-radius:20px 20px 00px 0px;
-        margin-top: 0px;
-        padding-left: 15px;
-        padding-top: 2px;
-        font-size: 24px;
-        font-weight: 800;
-        text-align: left;
-        
-
-    }
-
-    .boxes p:last-child{
-
-        font-size: 20px;
-        text-align: justify;
-        line-height: 2;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
-        padding-top: 10px;
-    }
-
-    .boxes ul li{
-
-        font-size: 20px;
-        text-align: justify;
-        margin-left: 1px;
-        margin-top: 1px;
-        margin-right: 1px;
-        margin-top: 0px;
-       line-height: 2;
-    }
+.boxes ul li {
+    font-size: 20px;
+    list-style: none;
+    text-align: justify;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-top: 0px;
+    line-height: 2;
+}
