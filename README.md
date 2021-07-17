@@ -1,7 +1,9 @@
 <h1 align="center">Oi 👋, Me chamo Carlos Eduardo Margato</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">Um entusiasta por tecnologia, desenvolvimento de software, marcas e conhecimento.
+Busco sempre me envolver em projetos que busquem facilitar e agregar valor a vida das pessoas.
+Tenho conheciemnto em REACT,, Redux, ContextAPI, JavaScript, HTML, CSS</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Onde me encontrar:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/carlos-margato" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="carlos-margato" height="30" width="40" /></a>
 </p>
